@@ -1,0 +1,83 @@
+body {
+    background: #000;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: aquawax;
+    src: url(PhotographSignature.ttf);
+}
+
+header {
+    height: 10vh;
+    color: #CD950C;
+    font-family: aquawax;
+    margin: 0px;
+    padding: 0px
+}
+
+main {
+    height: 80vh;
+    padding: 0px;
+    width: 100vw;
+    margin: 0px;
+}
+
+#logo {
+    margin: 0px;
+    padding: 0px;
+    width: 70px;
+}
+
+center {
+    padding-top: 30vh;
+}
+
+footer {
+    height: 10vh;
+    margin: 0px;
+    padding: 0px
+}
+
+#nome {
+    margin: 0px;
+    float: left;
+    width: 45%;
+    padding: 2%;
+    font-size: 130%;
+}
+
+#contatos {
+    margin: 0px;
+    float: right;
+    width: 40%;
+    padding: 2%;
+    text-align: right;
+}
+
+.ico {
+    width: 30px;
+    margin-right: 5px;
+}
+
+p {
+    margin: 0px;
+    padding: 10px;
+}
+
+#para_esquerda {
+    float: left;
+    text-align: left;
+    width: 20vw;
+    margin-left: 3vh;
+}
+
+#para_direita {
+    float: right;
+    text-align: right;
+    width: 20vw;
+    margin-right: 3vh;
+}
+
