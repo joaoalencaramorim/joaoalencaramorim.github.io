@@ -1,33 +1,361 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="author" content="João Vitor de Alencar Amorim">
-        <meta name="keywords" content="Engenharia Civil, BIM, Weaver Engenharia, Dynamo, Python, Revit, Construção, Reforma, Arquitetura">
-        <meta name="description" content="João Vitor de Alencar Amorim, principais projetos. Egenharia, Design e Programação.">
-        <meta http-equiv="refresh" content="600">
-        <title>João Amorim</title>
-        <link rel="stylesheet" href="estilos.css">
-    </head>
-    <body>
-        <header>
-            <div id="nome">João Vitor Alencar Amorim</div>
-            <div id="contatos">
-                <a href="https://www.instagram.com/alencar.amorim/"><img class ="ico" src="insta.png"></a>
-                <a href="https://br.linkedin.com/in/alencar-amorim"><img class ="ico" src="in.png"></a>
-                <a href="gmail.com"><img class ="ico" src="gmail.png"></a>
-                <a href="youtube.com"><img class ="ico" src="yt.png"></a></div>
-        </header>
-        <main>
-            <center><img src="joaoamorim.png"></center>
-        </main>
-        <footer>
-            <div id="para_esquerda">
-                <a href="link.para.blog"><img src="left.png"></a>
+<html lang="pt-br">
+<head>
+    <meta name="author" content="João Vitor de Alencar Amorim ;)">
+    <meta charset="UTF-8">
+    <meta name="description" content="Currículo de João Vitor de Alencar Amorim, destinado a vaga de Designer do Pede.ai - Petrolina-PE">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - JoãoVitorAlencarAmorim</title>
+    <link rel="icon" href="https://github.com/joaoalencaramorim/servidor/blob/main/icone2_Pede.ai.png?raw=true">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+        /* RESET */
+        *, 
+        *:after, 
+        *:before {font-size: 62.5%; margin: 0; border: 0; padding: 0; box-sizing: border-box;}
+        a {text-decoration: none;}
+        li {list-style: none;}
+        
+        html, body {width: 100%; height: 100%;}
+        .container {display: flex; height: 100vh; width: 100vw;}
+        .card {height: 657.77px; width: 370px; background-color: #FFF; margin: auto; border-radius: 4px;}
+        
+        nav.header {height: 50px; width: 100%; background-color: #FFF; display: flex; justify-content: space-between; align-items: center; border-top-left-radius: 4px; border-top-right-radius: 4px}
+        .location {display: flex; align-items: center; margin-left: 18px;}
+        .search {display: flex; align-items: center; margin-right: 18px;}
+        .addr p {margin-left: 10px; font-size: 1.6rem; font-family: 'Varela Round', sans-serif;}
+        
+        .filter {height: 40px; width: 40px; border-radius: 50%; background-color: #f6f6f6; display: flex; margin-right: 7px;}
+        .seek {height: 40px; width: 40px; border-radius: 50%; background-color: #f6f6f6; display: flex;}
+        .filter svg, .seek svg {margin: auto;}
+
+        .separator {height: 1px; width: 100%; background-color: #f6f6f6;}
+
+        main {height: 554.77px; width: 100%; display: flex; flex-wrap: wrap; align-content: flex-start;}
+
+        .options {height: 200px; width: 90%; margin: auto; background-color: #FFFFFF; display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 15px;}
+        .profile {height: 180px; width: 90%; margin: auto; background-color: #ffe898; border-radius: 8px; margin-top: 10px; display: flex; align-items: center; justify-content: space-around;}
+        .profile p {font-size: 1.2rem; font-family: 'Varela Round', sans-serif; letter-spacing: .1rem; text-align: right; }
+        
+        .option {height: 70px; width: 75px; border-radius: 9px; display: flex; align-items: center; justify-content: center;}
+        .o1 {background-color: #ffe6b5;}
+        .o2 {background-color: #c1fbe8;}
+        .o3 {background-color: #f2eeef;}
+        .o4 {background-color: #cae2e4;}
+        .o5 {background-color: #f2eeef;}
+        .o6 {background-color: #cae2e4;}
+        .o7 {background-color: #c1fbe8;}
+        .o8 {background-color: #ffe6b5;}
+        .option:hover{background-color: #FFF}
+        
+        .title {width: 75px; text-align: center; align-items: center;}
+        .title h3 {font-size: 1.4rem; font-family: 'Varela Round', sans-serif; font-weight: bold; letter-spacing: .1rem;}
+        .title2 h3 {font-size: 1.4rem; font-family: 'Varela Round', sans-serif; font-weight: bold; letter-spacing: .1rem;}
+        .title2 {margin-top: 15px; margin-left: 20px;}
+        .name {font-weight: bold; font-size: 1.4rem}
+        .title3 h3 {font-size: 1.4rem; font-family: 'Varela Round', sans-serif; font-weight: bold; letter-spacing: .1rem;}
+        .title3 {margin-top: 5px; margin-left: 80px;}
+        .second {margin-left: 40px;}
+        
+        .passions {display: flex; width: 90%; margin: auto; margin-top: 8px; justify-content: space-between;}
+        .passions div {width: 159px; height: 80px; border-radius: 9px; display: flex; align-items: center; justify-content: center;}
+        .passions div img {height: 70px}
+        .firstimg {background-color: #f2eeef;}
+        .secondimg {background-color: #cde5e7;}
+
+        nav.redes {height: 50px; width: 100%; background-color: #fe3333; display: flex; align-items: center; justify-content: space-around; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px}
+        nav.redes div {display: flex;}
+        nav.redes div a svg:hover {fill: #FFF;}
+
+        .bg-modal {width: 100%; height: 100%; background-color: rgba(0, 0, 0, .75); position: fixed; z-index: 2; top: -800px; display: flex;  align-items: center; transition: 350ms;}
+        .modal {height: 380px; width: 350px; background-color: #FFF; border: 1px solid #000; border-radius: 5px; margin: auto; display: flex; flex-direction: column;}
+        .modal__header {width: 100%; height: 40px; display: flex; justify-content: space-between; align-items: center; margin: 0 auto 0 auto; border-radius: 5px 5px 0 0;}
+        .modal__header img {margin-left: 20px; width: 20px;}
+        .modal__header h1 {font-size: 1.6rem; font-family: 'Varela Round', sans-serif; font-weight: bold; letter-spacing: .1rem;}
+        .modal__header span {font-size: 50px; color: #fe3333; transition: 350ms; cursor: pointer; margin-right: 20px;}
+        
+        .modal__body {display: flex; justify-content: center; flex-wrap: wrap;width: 90%; margin: 20px auto 0 auto}
+        .modal__body ul li {font-size: 1.4rem; font-family: 'Varela Round', sans-serif; letter-spacing: .1rem; text-align: center;}
+        .modal__body ul li a {font-size: 1.4rem; font-family: 'Varela Round', sans-serif; letter-spacing: .1rem; text-align: center;}
+        .modal__body ul li small {cursor: pointer;}
+
+        .o7 { margin-right: 85px;}
+        .t7 { margin-right: 85px;}
+
+        #ufpe {margin-top: 10px;}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <nav class="header">
+                <div class="location">
+                    <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#fe3333" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/></svg>
+                    </div>
+                    <div class="addr"><p>José e Maria - Petrolina</p></div>
+                </div>
+                <div class="search">
+                    <div class="filter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fe3333" viewBox="0 0 24 24"><path d="M19.479 2l-7.479 12.543v5.924l-1-.6v-5.324l-7.479-12.543h15.958zm3.521-2h-23l9 15.094v5.906l5 3v-8.906l9-15.094z"/></svg>
+                    </div>
+                    <div class="seek">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fe3333" viewBox="0 0 24 24"><path d="M23.809 21.646l-6.205-6.205c1.167-1.605 1.857-3.579 1.857-5.711 0-5.365-4.365-9.73-9.731-9.73-5.365 0-9.73 4.365-9.73 9.73 0 5.366 4.365 9.73 9.73 9.73 2.034 0 3.923-.627 5.487-1.698l6.238 6.238 2.354-2.354zm-20.955-11.916c0-3.792 3.085-6.877 6.877-6.877s6.877 3.085 6.877 6.877-3.085 6.877-6.877 6.877c-3.793 0-6.877-3.085-6.877-6.877z"/></svg>
+                    </div>
+                </div>
+            </nav>
+            <div class="separator"></div>
+            <main>
+                <div class="options">
+                    <div class="option o1" onclick="openModalai()"><img src="https://github.com/joaoalencaramorim/servidor/blob/main/ai.png?raw=true"></div>
+                    <div class="option o2" onclick="openModalps()"><img src="https://github.com/joaoalencaramorim/servidor/blob/main/ps.png?raw=true"></div>
+                    <div class="option o3" onclick="openModalpr()"><img src="https://github.com/joaoalencaramorim/servidor/blob/main/pr.png?raw=true"></div>
+                    <div class="option o4" onclick="openModalae()"><img src="https://github.com/joaoalencaramorim/servidor/blob/main/ae.png?raw=true"></div>
+                    <div class="title"><h3>Skills</h3></div>
+                    <div class="title"><h3>Skills</h3></div>
+                    <div class="title"><h3>Skills</h3></div>
+                    <div class="title"><h3>Skills</h3></div>
+                    <div class="option o5" onclick="openModaluf()"><img src="https://github.com/joaoalencaramorim/servidor/blob/main/siglaUFPE.png?raw=true" alt=""></div>
+                    <div class="option o6" onclick="openModalp()"><img src="https://github.com/joaoalencaramorim/servidor/blob/main/pPrisma.png?raw=true" alt=""></div>
+                    <div class="option o7" onclick="openModalw()"><img src="https://github.com/joaoalencaramorim/servidor/blob/main/wWeaver.png?raw=true" alt=""></div>
+                    <div class="title"><h3>Formação</h3></div>
+                    <div class="title"><h3>Vivência</h3></div>
+                    <div class="title t7"><h3>Vivência</h3></div>
+                    
+                </div>
+                <div class="profile">
+                    <div class="infos">
+                        <p class="name">João Vitor<br>Alencar Amorim<p>
+                        <p>24 anos<br><br>
+                        Rua Rio Paraíba, 174,<br>José e Maria, Petrolina<br><br>
+                        joaoalencaramorim<br>@gmail.com<br><br>
+                        87 9 8141-8686</p>
+                    </div>
+                    <div class="image">
+                        <img src="https://github.com/joaoalencaramorim/servidor/blob/main/joao2.png?raw=true"> 
+                    </div>
+                </div>
+                <div class="title2">
+                    <h3>Paixões</h3>
+                </div>
+                <div class="passions">
+                    <div class="firstimg"><img class="create" src="https://github.com/joaoalencaramorim/servidor/blob/main/criar.png?raw=true" alt=""></div>
+                    <div class="secondimg"><img class="learn" src="https://github.com/joaoalencaramorim/servidor/blob/main/aprender.png?raw=true" alt=""></div>
+                </div>
+                <div class="title3">
+                    <h3>Criar</h3>
+                </div>
+                <div class="title3">
+                    <h3 class="second">Aprender</h3>
+                </div>
+            </main>
+            <nav class="redes">
+                <div><a href="https://wa.me/5587981418686"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fd979d" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg></a></div>
+                <div><a href="https://www.linkedin.com/in/alencar-amorim/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fd979d" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg></a></div>
+                <div><a href="https://www.instagram.com/alencar.amorim/"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#fd979d" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a></div>
+            </nav>
+        </div>
+    </div>
+    <div class="bg-modal" id="modal_ai">
+        <div class="modal">
+            <div class="modal__header">
+                <img src="https://github.com/joaoalencaramorim/servidor/blob/main/Logo_Ai.png?raw=true" alt="">
+                <h1>Adobe Illustrator</h1>
+                <span class="close" onclick="closeModalai()">&times;</span>
             </div>
-            <div id="para_direita">
-                <a href="link.para.projetos"><img src="right.png"></a>
+            <div class="modal__body">
+                <ul>
+                	<li>Entre Intermediário e Avançado<br>4 anos de experiência.</li>
+                	<li><br>Tive meu primeiro contato em Janeiro de 2017 quando ingressei na equipe de Marketing da Empresa Júnior Prisma C.S.E. e depois, na Weaver Engenharia.</li>
+                	<li><br>A atividade mais comum era criar artes para as redes sociais, mas também já desenvolvi logos, apresentações, currículos para pessoas próximas e vários outros trabalhos que envolvessem imagens vetoriais.</li>
+                	<li onclick="openModalvideo()"><br><small>Clique aqui para assistir um vídeo, no qual mostro algumas artes/peças que produzi. Os software de edição de imagem deram suporte aos de vídeo.<small></li>
+                </ul>
             </div>
-        </footer>
-    </body>
+        </div>
+    </div>
+    <div class="bg-modal" id="modal_ps">
+        <div class="modal">
+            <div class="modal__header">
+                <img src="https://github.com/joaoalencaramorim/servidor/blob/main/logo_Ps.png?raw=true" alt="">
+                <h1>Adobe Photoshop</h1>
+                <span class="close" onclick="closeModalps()">&times;</span>
+            </div>
+            <div class="modal__body">
+                <ul>
+                	<li>Intermediário<br>2 anos de experiência.</li>
+                	<li><br>Assim como o Illustrator, tive meu primeiro contato quando ingressei na equipe de Marketing da Empresa Júnior Prisma C.S.E. Mas só comecei a trabalhar com o software dois anos depois, Na Weaver Engenharia</li>
+                	<li><br>A principal função do programa que utilizo é a remoção de fundos, além da utilização de mockups.</li>
+                	<li onclick="openModalvideo()"><br><small>Clique aqui para assistir um vídeo, no qual mostro algumas artes/peças que produzi. Os software de edição de imagem deram suporte aos de vídeo.<small></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-modal" id="modal_pr">
+        <div class="modal">
+            <div class="modal__header">
+                <img src="https://github.com/joaoalencaramorim/servidor/blob/main/logo_Pr.png?raw=true" alt="">
+                <h1>Adobe Premiere</h1>
+                <span class="close" onclick="closeModalpr()">&times;</span>
+            </div>
+            <div class="modal__body">
+                <ul>
+                	<li>Entre Intermediário e Avançado<br>2 anos de experiência.</li>
+                	<li><br>Comecei a utilizá-lo para melhorar a qualidade das postagens da Weaver Engenharia, visto que os vídeos possuem maior engajamento dos seguidores.</li>
+                	<li><br>Utilizo tanto para essas postagens, como para edição de videoaulas, aberturas de vídeo (animação do logo), remoção do fundo com chroma key e edição de vídeos para parentes próximos.</li>
+                	<li onclick="openModalvideo()"><br><small>Clique aqui para assistir um vídeo, no qual mostro algumas artes/peças que produzi. Os software de edição de imagem deram suporte aos de vídeo.<small></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-modal" id="modal_ae">
+        <div class="modal">
+            <div class="modal__header">
+                <img src="https://github.com/joaoalencaramorim/servidor/blob/main/Logo_Ae.png?raw=true" alt="">
+                <h1>After Effects</h1>
+                <span class="close" onclick="closeModalae()">&times;</span>
+            </div>
+            <div class="modal__body">
+                <ul>
+                	<li>Intermediário<br>1 ano de experiência.</li>
+                	<li><br>Apesar de já ter estudado sobre o software na mesma época que comecei a utilizar o Premiere, só comecei a colocar em prática no ínicio desse ano, quando adquiri um curso na Udemy de animação de personagens.</li>
+                	<li><br>Venho praticando desde então, além de complementar o aprendizado com estudos pela internet</li>
+                	<li onclick="openModalvideo()"><br><small>Clique aqui para assistir um vídeo, no qual mostro algumas artes/peças que produzi. Os software de edição de imagem deram suporte aos de vídeo.<small></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-modal" id="modal_ufpe">
+        <div class="modal">
+            <div class="modal__header">
+                <img id="ufpe" src="https://github.com/joaoalencaramorim/servidor/blob/main/ufpeufpe.png?raw=true" alt="">
+                <h1>Graduação</h1>
+                <span class="close" onclick="closeModaluf()">&times;</span>
+            </div>
+            <div class="modal__body">
+                <ul>
+                	<li>Engenharia Civil<br>2014 - Atualmente</li>
+                	<li><br>Graças a disciplina de Geometria Gráfica Tridimensional percebi minha facilidade com a visualização espacial e o desenho, sendo monitor da mesma por três semestres. Além de ter se apaixonado por programação quando comecei a aprendê-la na disciplina do 2º período. Ademais, fui monitor em mais quatro disciplinas, fiz uma iniciação científica, e participei da empresa Júnior Prisma.</li>
+                	<li><br>Porém, além de grandes aprendizados e de estar no 8º período, atualmente estou avaliando se devo continuar com o curso.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-modal" id="modal_p">
+        <div class="modal">
+            <div class="modal__header">
+                <img src="https://github.com/joaoalencaramorim/servidor/blob/main/LogoPrisma.png?raw=true" alt="">
+                <h1>Prisma C.S.E</h1>
+                <span class="close" onclick="closeModalp()">&times;</span>
+            </div>
+            <div class="modal__body">
+                <ul>
+                	<li>Analista, Gerente e Diretor de Marketing<br>2016 - 2018 (1 ano e 5 meses)</li>
+                	<li><br>Diretor Executivo em Vendas e Marketing. Planejamento estratégico do posicionamento da marca da Empresa Júnior Prisma C.S.E, além da estruturação das campanhas de vendas ativas.</li>
+                    <li><br><br><a href="https://www.prismacse.com/">www.prismacse.com</a></li>
+                    <li><br><a href="https://www.instagram.com/prismacse/">Instagram Prisma C.S.E.</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-modal" id="modal_w">
+        <div class="modal">
+            <div class="modal__header">
+                <img src="https://github.com/joaoalencaramorim/servidor/blob/main/LogoWeaver.png?raw=true" alt="">
+                <h1>Weaver Engenharia</h1>
+                <span class="close" onclick="closeModalw()">&times;</span>
+            </div>
+            <div class="modal__body">
+                <ul>
+                	<li>Cofundador<br>2018 - 2019</li>
+                	<li><br>Eu e um amigo decidimos criar nossa própria empresa de projetos em Engenharia Civil. Além de outras funções, eu era responsável pelo marketing visual. Acessando o Instagram da Weaver é possível ver as postagens que produzi.<br>Além disso, ministrei cursos de softwares pela empresa. Ela não chegou a ser regularizada e hoje segue outros caminhos, nos quais não faço parte.</li>
+                    <li><br><a href="https://www.weaverengenharia.com/">www.weaverengenharia.com</a></li>
+                    <li><br><a href="https://www.instagram.com/weaverengenharia/">Instagram Weaver Engenharia</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-modal" id="modal_pdf">
+        <div class="modal">
+            <div class="modal__header">
+                <img src="https://github.com/joaoalencaramorim/servidor/blob/main/iconePDF.png?raw=true" alt="">
+                <h1>Currículo em PDF</h1>
+                <span class="close" onclick="closeModalpdf()">&times;</span>
+            </div>
+            <div class="modal__body">
+                <ul>
+                	<li><a href="">Caso seja necessário o currículo em PDF, o mesmo pode ser acessado clicando aqui.</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-modal" id="modal_video">
+        <div class="modal">
+            <div class="modal__header">
+                <img src="https://github.com/joaoalencaramorim/servidor/blob/main/icone_PDF.png?raw=true" alt="">
+                <h1>Vídeo</h1>
+                <span class="close" onclick="closeModalvideo()">&times;</span>
+            </div>
+            <div class="modal__body">
+                <iframe width="315px" height="209px" src="https://www.youtube.com/embed/_BmhZEyzjGE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    function openModalai() {
+        document.getElementById('modal_ai').style.top = '0';
+    }
+    function closeModalai() {
+        document.getElementById('modal_ai').style.top = '-800px';
+    }
+    function openModalps() {
+        document.getElementById('modal_ps').style.top = '0';
+    }
+    function closeModalps() {
+        document.getElementById('modal_ps').style.top = '-800px';
+    }
+    function openModalpr() {
+        document.getElementById('modal_pr').style.top = '0';
+    }
+    function closeModalpr() {
+        document.getElementById('modal_pr').style.top = '-800px';
+    }
+    function openModalae() {
+        document.getElementById('modal_ae').style.top = '0';
+    }
+    function closeModalae() {
+        document.getElementById('modal_ae').style.top = '-800px';
+    }
+    function openModaluf() {
+        document.getElementById('modal_ufpe').style.top = '0';
+    }
+    function closeModaluf() {
+        document.getElementById('modal_ufpe').style.top = '-800px';
+    }
+    function openModalp() {
+        document.getElementById('modal_p').style.top = '0';
+    }
+    function closeModalp() {
+        document.getElementById('modal_p').style.top = '-800px';
+    }
+    function openModalw() {
+        document.getElementById('modal_w').style.top = '0';
+    }
+    function closeModalw() {
+        document.getElementById('modal_w').style.top = '-800px';
+    }
+    function openModalpdf() {
+        document.getElementById('modal_pdf').style.top = '0';
+    }
+    function closeModalpdf() {
+        document.getElementById('modal_pdf').style.top = '-800px';
+    }
+    function openModalvideo() {
+        document.getElementById('modal_video').style.top = '0';
+    }
+    function closeModalvideo() {
+        document.getElementById('modal_video').style.top = '-800px';
+    }
+</script>
 </html>
